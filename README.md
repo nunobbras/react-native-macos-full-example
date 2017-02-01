@@ -1,6 +1,6 @@
-#A Desktop OSX application done with react native that integrates native (objective-C) code.
+#A Desktop OSX application done with react native that integrates native (objective-C) code. It also integrate with a REST backend.
 
-###Using the fabulous react-native-macos and some local, objective-C inspector
+###Using the fabulous react-native-macos and some local, objective-C code.
 
 
 This code is an app used as MVP for a company that didn't worked out. 
