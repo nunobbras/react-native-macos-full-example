@@ -1,4 +1,4 @@
-#A Desktop OSX application done with react native that integrates native (objective-C) code. It also integrate with a REST backend.
+#A Desktop OSX application done with react native that integrates native (objective-C) code, integrated with a RESTful backend.
 
 ###Using the fabulous react-native-macos and some local, objective-C code.
 
