@@ -1,0 +1,47 @@
+{
+  "name": "Inspector_2ndhanlder",
+  "version": "0.1.0",
+  "description": "IOS mobile, and desktop Inspector App with the same code",
+  "author": "NBB",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [
+    "react",
+    "react-native",
+    "flux",
+    "babel"
+  ],
+  "src": "./",
+  "test": "./test",
+  "electron": "./electron",
+  "dev": "./dev",
+  "mainInput": "main",
+  "mainOutput": "main",
+  "main": "index.desktop.html",
+  "scripts": {
+    "start": "node node_modules/react-native-desktop/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "moment": "^2.13.0",
+    "multiplier": "^0.1.0",
+    "path-alias": "0.0.7",
+    "react": "0.14.8",
+    "react-native": "0.21.0",
+    "react-native-desktop": "0.7.0",
+    "react-native-image-picker": "^0.21.4",
+    "react-native-star-rating": "^1.0.5",
+    "react-native-vector-icons": "2.0.0",
+    "react-redux": "4.4.5",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "3.5.2",
+    "redux-logger": "2.6.1",
+    "redux-storage": "2.2.0",
+    "redux-thunk": "1.0.3",
+    "reqwest": "^1.1.5",
+    "simple-markdown": "0.0.7"
+  }
+}

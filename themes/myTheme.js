@@ -1,0 +1,142 @@
+//import Color from 'color';
+import multiply from 'multiplier';
+
+module.exports = {
+    // brandPrimary: "#223251",
+    // brandInfo: "#EA7B30",
+    // brandSuccess: "#5cb85c",
+    // brandDanger: "#d9534f",
+    // brandWarning: "#f0ad4e",
+    // brandSidebar: "#252932",
+    // brandGrey: "#F5F5F5",
+
+    brandPrimary: "#247BA0", //Blue
+    brandPrimaryDarkX: "#054F6F", //Strong Blue
+    brandPrimaryDark: "#0A678F", //Strong Blue
+    brandPrimaryLight: "#418FB1", //Strong Blue
+    brandPrimaryLighter: "#6AADCA", //Strong Blue
+	brandPrimaryLighterX: "#98CCE3", //Strong Blue
+    brandInfo: "#FE5730", //Light Orange
+    brandInfoLigtht: "#FF7656", //Light Orange
+	brandInfoDark: "#E23006", //Light Orange
+    
+    brandGreyDark: "#282828",
+    brandGreyMidDark: "#323232",
+    brandGrey: "#626262",
+    brandGreyLight: "#e3e3e3",
+	
+    brandSuccess: "#5cb85c",
+	brandDanger: "#d9534f",
+	brandWarning: "#f0ad4e",
+    brandSidebar: "#282828",
+
+    brandPrimaryDisabled: "#98CCE3", //Blue
+
+	inverseTextColor: "#fff",
+	textColor: "#000",
+
+	fontSizeBase: 15,
+    
+	get fontSizeH1 () {
+        return multiply(this.fontSizeBase, 1.8);
+    },
+    get fontSizeH2 () {
+        return multiply(this.fontSizeBase, 1.6);
+    },
+    get fontSizeH3 () {
+        return multiply(this.fontSizeBase, 1.4);
+    },
+    get btnTextSize () {
+        return multiply(this.fontSizeBase, 1.1);
+    },
+    get btnTextSizeLarge () {
+        return multiply(this.fontSizeBase, 1.5);
+    },
+    get btnTextSizeSmall () {
+        return multiply(this.fontSizeBase, .8);
+    },
+    get iconSizeLarge () {
+        return multiply(this.iconFontSize, 1.5);
+    },
+    get iconSizeSmall () {
+        return multiply(this.iconFontSize, .6);
+    },
+
+    borderRadiusBase: 4,
+
+    get borderRadiusLarge () {
+        return multiply(this.fontSizeBase, 3);
+    },	
+
+    footerHeight: 55,
+    toolbarHeight: 70,
+    toolbarDefaultBg: "#4563ED",
+    toolbarInverseBg: "#222",
+
+    get btnPrimaryBg () {
+        return this.brandPrimary;
+    },	
+    get btnPrimaryColor () {
+        return this.inverseTextColor;
+    },	
+    get btnSuccessBg () {
+        return this.brandSuccess;
+    },	
+    get btnSuccessColor () {
+        return this.inverseTextColor;
+    },	
+    get btnDangerBg () {
+        return this.brandDanger;
+    },	
+    get btnDangerColor () {
+        return this.inverseTextColor;
+    },	
+    get btnInfoBg () {
+        return this.brandInfo;
+    },	
+    get btnInfoColor () {
+        return this.inverseTextColor;
+    },	
+    get btnWarningBg () {
+        return this.brandWarning;
+    },	
+    get btnWarningColor () {
+        return this.inverseTextColor;
+    },	
+
+    borderWidth: 1,
+
+    get inputColor () {
+        return this.textColor;
+    },
+    get inputColorPlaceholder () {
+        return 'rgba(0, 0, 0, 0.7)';
+    },
+    inputBorderColor: "#000",
+    inputHeightBase: 40,	
+    inputGroupMarginBottom: 10,
+    inputPaddingLeft: 5,
+    get inputPaddingLeftIcon () {
+        return multiply(this.inputPaddingLeft, 8);
+    },
+
+    dropdownBg: "#000",
+    dropdownLinkColor: "#414142",
+
+    jumbotronPadding: 30,
+    jumbotronBg: "#C9C9CE",
+
+    contentPadding: 10,
+
+    listBorderColor: "#ddd",
+    listDividerBg: "#F5F5F5",
+    listItemPadding: 15,
+    listNoteColor: "#58575C",
+
+    iconFontSize: 27,
+
+    badgeColor: "#fff",
+    badgeBg: "#ED1727",
+
+    lineHeight: 21
+}
